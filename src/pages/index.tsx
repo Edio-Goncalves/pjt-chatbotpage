@@ -13,13 +13,13 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Landing Service</title>
+        <title>ChatBot</title>
         <meta
           name="description"
           content="Página de serviços de landingpages e automação de bots para whatsapp"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
+        {/* <link rel="icon" href="/favicon.png" /> */}
       </Head>
       <Laser />
       <Header />

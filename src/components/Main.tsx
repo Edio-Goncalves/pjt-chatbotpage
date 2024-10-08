@@ -5,15 +5,16 @@ export default function MainSection() {
     <div className="section-home-hero">
       <div>
         <main>
-          <h1>Faça sua marca crescer</h1>
-          <h1>com conteúdo consistente</h1>
+          <h1>Chatbots sob medida para</h1>
+          <h1>o seu negócio</h1>
           <p>
-            Tenha uma página exclusiva, rápida e com copy otimizada para
-            impulsionar seu negócio. Converta visitantes em clientes, com design
-            sob medida para suas necessidades.
+            Tenha um assistente virtual sem precisar instalar ou configurar
+            nada! Automatizamos todo o seu fluxo de perguntas e respostas para
+            que você se concentre apenas em seus leads, sem esperar horas por
+            respostas ou precisar estar online o tempo todo.
           </p>
           <a className="button" href="">
-            Fale com o desenvolvedor
+            Comece agora mesmo
           </a>
         </main>
         <Testimonials />

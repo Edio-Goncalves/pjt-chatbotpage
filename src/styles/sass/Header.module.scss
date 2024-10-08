@@ -1,6 +1,5 @@
 .section-home-header {
   z-index: 2;
-  font-family: "SharpSans", sans-serif;
   background-color: #0000;
   justify-content: center;
   align-items: center;
@@ -21,23 +20,27 @@
     background-color: #ffffff;
     box-shadow: 0 8px 40px #00000014;
     border-radius: 40px;
-    .logo {
-      font-family: "SharpGroteskSemiBold", sans-serif;
-      font-size: 28px;
-      margin-top: 5px;
-      padding-left: 20px;
-    }
-    nav {
+    div {
+      width: 100%;
       display: flex;
-      gap: 15px;
-      a {
-        padding: 10px;
-        font-size: 12px;
+      justify-content: space-between;
+      .logo {
+        font-size: 30px;
+        margin-left: 20px;
+        font-family: "Outfit", sans-serif;
+        font-weight: 800;
+      }
+      nav {
+        display: flex;
+        gap: 15px;
+        a {
+          padding: 10px;
+          font-size: 14px;
+        }
       }
     }
 
     .button {
-      font-family: "SharpSansMedium", sans-serif;
       cursor: pointer;
       padding: 14px 18px;
       border-radius: 28px;

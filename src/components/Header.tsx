@@ -2,17 +2,18 @@ export default function HeaderSection() {
   return (
     <div className="section-home-header">
       <div className="header-wrapper">
-        <a className="logo" href="">
-          WOW Pages
-        </a>
-        <nav>
-          <a href="#preco">Preços</a>
-          <a href="">Inspirações</a>
-          <a href="#chatbot">Automação</a>
-        </nav>
+        <div>
+          <a className="logo" href="">
+            ChatBot
+          </a>
+          <nav>
+            <a href="#preco">Demonstração</a>
+            <a href="#chatbot">Planos</a>
+          </nav>
+        </div>
 
         <a className="button" href="">
-          Orçamento
+          Contato
         </a>
       </div>
     </div>
