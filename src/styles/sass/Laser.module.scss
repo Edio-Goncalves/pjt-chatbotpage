@@ -1,0 +1,15 @@
+.laser {
+  width: 100vw;
+  height: 3px;
+  background-color: #0099ff;
+  background: linear-gradient(
+    90deg,
+    #ffc401 0%,
+    #0099ff 30%,
+    #0099ff 60%,
+    #ffc401
+  );
+  display: block;
+  position: fixed;
+  top: 0;
+}
