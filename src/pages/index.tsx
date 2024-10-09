@@ -8,13 +8,12 @@ import BenefitsFirst from "@/components/BenefitsFirst";
 import BenefitsSecond from "@/components/BenefitsSecond";
 import BenefitsThird from "@/components/BenefitsThird";
 import BenefitsFourth from "@/components/BenefitsFourth";
+import Steps from "@/components/Steps";
+import Prices from "@/components/Price";
+import Second from "@/components/SecondAction";
 import Footer from "../components/Footer";
-import ModalTestimonial from "@/components/ModalTestimonial";
-import { useState } from "react";
 
 export default function Home() {
-  const [openModal, setOpenModal] = useState(false);
-
   return (
     <div>
       <Head>
@@ -24,7 +23,7 @@ export default function Home() {
           content="Página de serviços de landingpages e automação de bots para whatsapp"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* <link rel="icon" href="/favicon.png" /> */}
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Laser />
       <Header />
@@ -34,7 +33,9 @@ export default function Home() {
       <BenefitsSecond />
       <BenefitsThird />
       <BenefitsFourth />
-      {/* <Automation /> */}
+      <Steps />
+      <Prices />
+      <Second />
       <Footer />
     </div>
   );

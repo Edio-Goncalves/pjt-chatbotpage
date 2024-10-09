@@ -65,6 +65,7 @@
       gap: 20px;
 
       div {
+        cursor: default;
         width: 100%;
         max-width: 300px;
         padding: 30px;
@@ -174,6 +175,7 @@
     }
   }
 }
+
 /* BENEFITS THIRD */
 .section-benefitsthird {
   background-color: #ffffff;
@@ -204,10 +206,13 @@
     }
   }
 }
+
 /* BENEFITS FOURTH */
 .section-benefitsfourth {
   background-color: #ffffff;
   padding: 50px 20px;
+
+  background-image: linear-gradient(#fff, #f6f8ff 87%, #f6f8ff);
   .benefitsfourth-wrapper {
     width: 100%;
     max-width: 1280px;
@@ -231,6 +236,238 @@
         width: 100%;
         max-width: 320px;
       }
+    }
+  }
+}
+
+/* STEPS */
+.section-steps {
+  position: relative;
+  padding: 50px 20px;
+  background-color: #fff;
+  background-image: linear-gradient(#f7f7f7 63%, #ffffff 63%);
+
+  .steps-wrapper {
+    width: 100%;
+    max-width: 1280px;
+    padding: 80px 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    text-align: center;
+    gap: 30px;
+
+    h2 {
+      max-width: 1000px;
+      text-align: center;
+      font-size: 72px;
+      line-height: 1.15;
+      font-family: "Outfit", sans-serif;
+      background-image: linear-gradient(to right, #4b83ff, #0099ff);
+      background-clip: text;
+      -moz-background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+    .frs {
+      color: #333;
+      opacity: 0.9;
+      margin-bottom: 20px;
+      font-size: 22px;
+    }
+    .card-step-wr {
+      background-color: #fff;
+      max-width: 900px;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      .step-card {
+        align-items: baseline;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        max-width: 280px;
+        padding: 26px;
+        border-radius: 10px;
+        box-shadow: 0 0 1.25rem rgba(31, 45, 61, 0.05);
+        border: 1px solid #eaecf3;
+        span {
+          flex-shrink: 0;
+          width: 30px;
+          height: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 20px;
+          font-size: 16px;
+          font-weight: 500;
+          background-color: #ff6e01;
+          color: aliceblue;
+        }
+        .step-card-wr {
+          margin-left: 16px;
+          text-align: left;
+          h4 {
+            width: 100%;
+            margin-bottom: 10px;
+            font-size: 18px;
+            font-weight: 400;
+          }
+          p {
+            font-size: 14px;
+            opacity: 0.6;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* PRICES */
+.section-prices {
+  position: relative;
+  padding: 50px 20px;
+  background-color: #f7f7f7;
+  background-image: linear-gradient(
+    -175deg,
+    #ffffff,
+    #ffffff 40%,
+    #f7f7f7 40%,
+    #fff 90%
+  );
+  .prices-wrapper {
+    width: 100%;
+    max-width: 1280px;
+    padding: 80px 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    text-align: center;
+    gap: 30px;
+    h2 {
+      margin-bottom: 34px;
+    }
+    .destaque {
+      color: #0099ff;
+      font-weight: 600;
+    }
+    .price-cards-wr {
+      display: flex;
+      gap: 20px;
+      > :first-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 350px;
+        font-size: 32px;
+        font-weight: 600;
+        padding: 20px;
+        color: #5f5e5f;
+        > span {
+          .price-ico {
+            margin-right: 10px;
+            font-size: 28px;
+            &.size {
+              font-size: 80px;
+            }
+          }
+        }
+      }
+      > :nth-child(2) {
+        display: flex;
+        gap: 20px;
+        .price-card {
+          background-color: #fff;
+          cursor: default;
+          overflow: hidden;
+          position: relative;
+          width: 320px;
+          padding: 24px 24px 48px;
+          border-radius: 10px;
+          border: 1px solid #eaecf3;
+          box-shadow: 0 0 1.25rem rgba(31, 45, 61, 0.05);
+          transition: all 0.3s ease-in;
+          &:hover {
+            transform: scale(1.01);
+          }
+          h3 {
+            font-weight: 300;
+            font-size: 26px;
+            padding: 20px;
+          }
+          .prices-prices {
+            padding: 10px 0px 20px;
+            border-top: 1px dashed rgba(31, 45, 61, 0.5);
+            border-bottom: 1px dashed rgba(31, 45, 61, 0.5);
+            p {
+              font-size: 14px;
+              color: #333;
+            }
+            span {
+              font-size: 36px;
+            }
+            > :last-child {
+              color: #718096;
+            }
+          }
+          .resp {
+            font-size: 14px;
+            opacity: 0.75;
+            padding: 20px 0px 40px;
+            font-weight: 300;
+            color: #ff6e01;
+            opacity: 0.98;
+          }
+          .prices-flag {
+            background-color: #ff6e01;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 360px;
+            padding: 18px 0px 8px;
+            font-size: 12px;
+            top: -10px;
+            left: -20px;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* SECOND ACTION */
+.section-secondaction {
+  position: relative;
+  padding: 50px 20px;
+  // background-color: #0099ff;
+  .secondaction-wrapper {
+    width: 100%;
+    max-width: 1280px;
+    padding: 80px 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    text-align: center;
+    gap: 30px;
+    h2 {
+      background-image: linear-gradient(to right, #4b83ff, #0099ff);
+      font-size: 48px;
+    }
+    a {
+      font-size: 18px;
     }
   }
 }

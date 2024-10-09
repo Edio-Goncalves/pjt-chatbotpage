@@ -8,7 +8,7 @@ export default function HeaderSection() {
           </a>
           <nav>
             <a href="#preco">Demonstração</a>
-            <a href="#chatbot">Planos</a>
+            <a href="#planos">Planos</a>
           </nav>
         </div>
 

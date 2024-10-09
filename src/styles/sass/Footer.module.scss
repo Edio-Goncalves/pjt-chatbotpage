@@ -20,11 +20,22 @@
         font-size: 24px;
         margin-top: 5px;
       }
-      a {
-        font-size: 16px;
-        font-weight: bold;
-        &:hover {
-          color: #0099ff;
+      .contact {
+        a {
+          font-size: 16px;
+          font-weight: bold;
+          line-height: 1.2;
+          display: flex;
+          align-items: center;
+          .contact-ico {
+            font-size: 14px;
+            margin-right: 10px;
+            line-height: 1;
+          }
+          &:hover {
+            transition: all 0.3s ease-in;
+            color: #0099ff;
+          }
         }
       }
     }

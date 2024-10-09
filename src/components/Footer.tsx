@@ -1,6 +1,7 @@
-import { FaWhatsapp } from "react-icons/fa6";
+import { FaWhatsapp, FaWrench, FaRegMessage } from "react-icons/fa6";
 import { IoMailOutline } from "react-icons/io5";
 import { GoDependabot } from "react-icons/go";
+
 export default function Footer() {
   return (
     <div className="section-footer">
@@ -9,11 +10,17 @@ export default function Footer() {
           <a className="logo" href="/">
             ChatBot
           </a>
-          <div>
-            <a href="">Contato</a>
+          <div className="contact">
+            <a href="">
+              <FaRegMessage className="contact-ico" />
+              <span>Contato</span>
+            </a>
           </div>
-          <div>
-            <a href="">Support</a>
+          <div className="contact">
+            <a href="">
+              <FaWrench className="contact-ico" />
+              <span>Suporte</span>
+            </a>
           </div>
         </div>
         <div className="msg-end">
