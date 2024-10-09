@@ -1,6 +1,14 @@
+// Main.tsx
+import { useState } from "react"; // Adicione isso
 import Testimonials from "./Testimonials";
 
 export default function MainSection() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const toggleModal = () => {
+    setIsModalOpen(!isModalOpen);
+  };
+
   return (
     <div className="section-home-hero">
       <div>
@@ -19,7 +27,8 @@ export default function MainSection() {
             Automatizamos todo o seu fluxo de perguntas e respostas
           </p>
         </main>
-        <Testimonials />
+        <Testimonials setOpenModal={toggleModal} />{" "}
+        {/* Passando a função aqui */}
       </div>
     </div>
   );

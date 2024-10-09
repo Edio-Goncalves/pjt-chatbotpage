@@ -9,8 +9,12 @@ import BenefitsSecond from "@/components/BenefitsSecond";
 import BenefitsThird from "@/components/BenefitsThird";
 import BenefitsFourth from "@/components/BenefitsFourth";
 import Footer from "../components/Footer";
+import ModalTestimonial from "@/components/ModalTestimonial";
+import { useState } from "react";
 
 export default function Home() {
+  const [openModal, setOpenModal] = useState(false);
+
   return (
     <div>
       <Head>

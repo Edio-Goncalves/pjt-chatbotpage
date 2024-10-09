@@ -36,6 +36,12 @@
         a {
           padding: 10px;
           font-size: 14px;
+          border-radius: 20px;
+          &:hover {
+            background-color: #0099ff;
+            color: aliceblue;
+            transition: all 0.3s ease-in;
+          }
         }
       }
     }
