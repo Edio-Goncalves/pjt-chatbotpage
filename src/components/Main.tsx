@@ -7,15 +7,17 @@ export default function MainSection() {
         <main>
           <h1>Chatbots sob medida para</h1>
           <h1>o seu negócio</h1>
-          <p>
+          <p className="prf-primary">
             Tenha um assistente virtual sem precisar instalar ou configurar
-            nada! Automatizamos todo o seu fluxo de perguntas e respostas para
-            que você se concentre apenas em seus leads, sem esperar horas por
-            respostas ou precisar estar online o tempo todo.
+            nada! Não precisa estar online o tempo todo e esperar horas por
+            respostas. Qualifique seus leads de forma simples.
           </p>
           <a className="button" href="">
             Comece agora mesmo
           </a>
+          <p className="pgf-small">
+            Automatizamos todo o seu fluxo de perguntas e respostas
+          </p>
         </main>
         <Testimonials />
       </div>

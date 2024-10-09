@@ -2,12 +2,10 @@ import Laser from "../components/Laser";
 import Header from "../components/Header";
 import Main from "../components/Main";
 import Head from "next/head";
-import Benefits from "../components/Benefits";
-import Process from "../components/Process";
+import First from "../components/FirstAction";
 import Automation from "../components/Automation";
-import Action from "../components/Action";
+import BenefitsFirst from "@/components/BenefitsFirst";
 import Footer from "../components/Footer";
-import Prices from "../components/Prices";
 
 export default function Home() {
   return (
@@ -24,11 +22,9 @@ export default function Home() {
       <Laser />
       <Header />
       <Main />
-      <Benefits />
-      <Process />
-      <Automation />
-      <Prices />
-      <Action />
+      <First />
+      <BenefitsFirst />
+      {/* <Automation /> */}
       <Footer />
     </div>
   );
