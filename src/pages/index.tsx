@@ -5,6 +5,9 @@ import Head from "next/head";
 import First from "../components/FirstAction";
 import Automation from "../components/Automation";
 import BenefitsFirst from "@/components/BenefitsFirst";
+import BenefitsSecond from "@/components/BenefitsSecond";
+import BenefitsThird from "@/components/BenefitsThird";
+import BenefitsFourth from "@/components/BenefitsFourth";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -24,6 +27,9 @@ export default function Home() {
       <Main />
       <First />
       <BenefitsFirst />
+      <BenefitsSecond />
+      <BenefitsThird />
+      <BenefitsFourth />
       {/* <Automation /> */}
       <Footer />
     </div>
