@@ -1,17 +1,26 @@
 export default function BenefitsThird() {
   return (
-    <div className="section-benefitsthird">
-      <section className="benefitsthird-wrapper">
-        <div>
+    <div className="section-benefits">
+      <section className="benefits-wrapper">
+        <div className="benefit-media">
           <img src="/favicon.ico" alt="" />
         </div>
-        <div>
-          <h3>Personalize seu atendimento</h3>
+        <div className="benefit-content">
+          <span>
+            <h3>
+              <img src="/img/atendimento.png" className="benefits-ico" />
+              Cuidamos de tudo
+            </h3>
+          </span>
           <p>
-            Personalize a mensagem para seu cliente e ofereça uma experiência
-            única através de variáveis, como saudação, nome do whatsapp,
-            aniversário e outros.
+            Esqueça as configurações difíceis! Nós cuidamos de tudo para você:
+            entendemos seu fluxo e ativamos o bot no seu WhatsApp. Em poucos
+            passos, seu atendimento estará pronto para ajudar e qualificar
+            leads, enquanto você foca no que mais importa.
           </p>
+          <a className="button -second" href="">
+            contrate já
+          </a>
         </div>
       </section>
     </div>

@@ -1,16 +1,25 @@
 export default function BenefitsFirst() {
   return (
-    <div className="section-benefitsfirst">
-      <section className="benefitsfirst-wrapper">
-        <div>
+    <div className="section-benefits">
+      <section className="benefits-wrapper">
+        <div className="benefit-media">
           <img src="/favicon.ico" alt="" />
         </div>
-        <div>
-          <h3>Personalize seu atendimento</h3>
+        <div className="benefit-content">
+          <span>
+            <div>
+              <h3>
+                <img src="/img/pincel.png" className="benefits-ico" />
+                Atendimento{" "}
+              </h3>
+              <h3>Personalizado</h3>
+            </div>
+          </span>
           <p>
-            Personalize a mensagem para seu cliente e ofereça uma experiência
-            única através de variáveis, como saudação, nome do whatsapp,
-            aniversário e outros.
+            Ofereça uma experiência personalizada para seus clientes, com
+            mensagens adaptadas automaticamente a cada interação. Deixe o bot
+            saudar seus contatos, enviar mensagens e criar um atendimento
+            humanizado e inteligente.
           </p>
         </div>
       </section>

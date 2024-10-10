@@ -35,7 +35,15 @@ a {
   color: #ffffff;
   border: 1px solid transparent;
 }
-.button:hover {
+.button.-second {
+  width: 100%;
+  padding: 10px 18px;
+  margin-top: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+.button:hover,
+.button-second:hover {
   transition: all 0.3s ease-in;
   border: 1px solid #1e08251c;
   background-color: #ffffff;

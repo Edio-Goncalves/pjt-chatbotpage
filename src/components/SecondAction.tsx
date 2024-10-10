@@ -8,7 +8,7 @@ export default function SecondAction() {
           espere respostas por horas para seguir o seu trabalho
         </h2>
         <a className="button" href="">
-          Contrate pode te ajudar
+          Contrate quem pode te ajudar
         </a>
       </section>
     </div>
