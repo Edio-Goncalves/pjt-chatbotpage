@@ -33,6 +33,7 @@ export default function Home() {
       <BenefitsSecond />
       <BenefitsThird />
       <BenefitsFourth />
+      <Automation />
       <Steps />
       <Prices />
       <Second />

@@ -3,7 +3,7 @@ export default function BenefitsFirst() {
     <div className="section-benefits">
       <section className="benefits-wrapper">
         <div className="benefit-media">
-          <img src="/favicon.ico" alt="" />
+          <img src="/img/atendimentos.png" alt="" />
         </div>
         <div className="benefit-content">
           <span>

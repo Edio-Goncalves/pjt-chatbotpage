@@ -7,7 +7,7 @@ export default function HeaderSection() {
             ChatBot
           </a>
           <nav>
-            <a href="#preco">Demonstração</a>
+            <a href="#chatbot">Demonstração</a>
             <a href="#planos">Planos</a>
           </nav>
         </div>

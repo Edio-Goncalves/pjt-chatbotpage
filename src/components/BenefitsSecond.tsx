@@ -20,7 +20,7 @@ export default function BenefitsSecond() {
           </a>
         </div>
         <div className="benefit-media">
-          <img src="/favicon.ico" alt="" />
+          <img src="/img/git-robo.gif" alt="" />
         </div>
       </section>
     </div>
