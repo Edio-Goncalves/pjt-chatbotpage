@@ -1,3 +1,5 @@
+@use "sizes" as sz;
+
 .section-footer {
   background-color: #1e0825;
   .footer-wrapper {
@@ -13,28 +15,32 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      font-size: 14px;
+      font-size: sz.$ft-sz-14;
       font-family: "Outfit", sans-serif;
       .logo {
         font-family: "Outfit", sans-serif;
-        font-size: 24px;
+        font-size: sz.$ft-sz-24;
         margin-top: 5px;
       }
-      .contact {
-        a {
-          font-size: 16px;
-          font-weight: bold;
-          line-height: 1.2;
-          display: flex;
-          align-items: center;
-          .contact-ico {
-            font-size: 14px;
-            margin-right: 10px;
-            line-height: 1;
-          }
-          &:hover {
-            transition: all 0.3s ease-in;
-            color: #0099ff;
+      .contact-wrapper {
+        display: flex;
+        gap: 100px;
+        .contact {
+          a {
+            font-size: sz.$ft-sz-16;
+            font-weight: bold;
+            line-height: 1.2;
+            display: flex;
+            align-items: center;
+            .contact-ico {
+              font-size: sz.$ft-sz-14;
+              margin-right: 10px;
+              line-height: 1;
+            }
+            &:hover {
+              transition: all 0.3s ease-in;
+              color: #0099ff;
+            }
           }
         }
       }
@@ -42,18 +48,18 @@
     .msg-end {
       margin-left: 20px;
       p {
-        font-size: 12px;
+        font-size: sz.$ft-sz-12;
         opacity: 0.8;
       }
       div {
         cursor: pointer;
         margin-top: 5px;
-        font-size: 18px;
+        font-size: sz.$ft-sz-18;
         display: flex;
         align-items: center;
         gap: 10px;
         :last-child {
-          font-size: 20px;
+          font-size: sz.$ft-sz-20;
           margin-top: 2px;
         }
         .ico-footer {
@@ -68,7 +74,7 @@
     }
     .end-page {
       border-top: 1px solid #ffffff28;
-      font-size: 11px;
+      font-size: sz.$ft-sz-11;
       display: flex;
       justify-content: space-between;
       gap: 10px;
@@ -88,6 +94,39 @@
           text-decoration: none;
           font-weight: 300;
           color: #0099ff;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .section-footer {
+    .footer-wrapper {
+      gap: 20px;
+      > :first-child {
+        flex-direction: column;
+        .logo {
+          margin-bottom: 30px;
+          font-weight: bold;
+        }
+        .contact-wrapper {
+          gap: 30px;
+          .contact {
+            a {
+              margin-bottom: 20px;
+              font-weight: 300;
+            }
+          }
+        }
+      }
+      .msg-end {
+        margin-left: 0px;
+      }
+      .end-page {
+        flex-direction: column;
+        .developer {
+          font-size: 10px;
         }
       }
     }

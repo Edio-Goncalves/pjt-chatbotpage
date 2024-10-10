@@ -10,9 +10,8 @@ export default function BenefitsFirst() {
             <div>
               <h3>
                 <img src="/img/pincel.png" className="benefits-ico" />
-                Atendimento{" "}
+                Personalizado!
               </h3>
-              <h3>Personalizado</h3>
             </div>
           </span>
           <p>

@@ -1,6 +1,7 @@
 .section-testimonials {
   display: flex;
   justify-content: center;
+
   .testimonials-img-wr {
     width: 234px;
     height: 54px;
@@ -50,6 +51,23 @@
         font-size: 22px;
         color: #daa520;
       }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .section-testimonials {
+    flex-direction: column;
+    align-items: center;
+    .testimonials-img-wr {
+      order: 2;
+    }
+    .client-star {
+      margin-left: 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
     }
   }
 }

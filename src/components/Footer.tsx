@@ -10,17 +10,19 @@ export default function Footer() {
           <a className="logo" href="/">
             ChatBot
           </a>
-          <div className="contact">
-            <a href="">
-              <FaRegMessage className="contact-ico" />
-              <span>Contato</span>
-            </a>
-          </div>
-          <div className="contact">
-            <a href="">
-              <FaWrench className="contact-ico" />
-              <span>Suporte</span>
-            </a>
+          <div className="contact-wrapper">
+            <div className="contact">
+              <a href="">
+                <FaRegMessage className="contact-ico" />
+                <span>Contato</span>
+              </a>
+            </div>
+            <div className="contact">
+              <a href="">
+                <FaWrench className="contact-ico" />
+                <span>Suporte</span>
+              </a>
+            </div>
           </div>
         </div>
         <div className="msg-end">

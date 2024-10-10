@@ -6,9 +6,8 @@ export default function BenefitsFourth() {
           <span>
             <h3>
               <img src="/img/foguete.png" className="benefits-ico" />
-              Conteúdos
+              Agilidade!
             </h3>
-            <h3>automaticamente</h3>
           </span>
           <p>
             Deixe o bot cuidar do envio de textos, imagens, áudios e vídeos.
@@ -17,7 +16,7 @@ export default function BenefitsFourth() {
           </p>
         </div>
         <div className="benefit-media">
-          <img src="/favicon.ico" alt="" />
+          <img src="/img/zaps.png" alt="" />
         </div>
       </section>
     </div>

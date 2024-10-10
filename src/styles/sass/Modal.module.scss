@@ -1,3 +1,4 @@
+@use "sizes" as sz;
 .modal-bg-grey {
   position: fixed;
   top: 0;
@@ -38,12 +39,12 @@
       font-family: "Afacad Flux", sans-serif;
 
       h2 {
-        font-size: 32px;
+        font-size: sz.$ft-sz-32;
         font-family: "Afacad Flux", sans-serif;
         font-weight: 400;
       }
       p {
-        font-size: 14px;
+        font-size: sz.$ft-sz-14;
         line-height: 1.6;
         letter-spacing: 0.5px;
         opacity: 0.9;

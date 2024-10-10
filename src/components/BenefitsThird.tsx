@@ -3,7 +3,7 @@ export default function BenefitsThird() {
     <div className="section-benefits">
       <section className="benefits-wrapper">
         <div className="benefit-media">
-          <img src="/favicon.ico" alt="" />
+          <img src="/img/error.png" alt="" />
         </div>
         <div className="benefit-content">
           <span>
@@ -13,7 +13,7 @@ export default function BenefitsThird() {
             </h3>
           </span>
           <p>
-            Esqueça as configurações difíceis! Nós cuidamos de tudo para você:
+            Esqueça as configurações difíceis! Nós cuidamos de tudo para você,
             entendemos seu fluxo e ativamos o bot no seu WhatsApp. Em poucos
             passos, seu atendimento estará pronto para ajudar e qualificar
             leads, enquanto você foca no que mais importa.

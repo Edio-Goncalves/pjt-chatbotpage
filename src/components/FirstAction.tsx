@@ -15,7 +15,6 @@ export default function FirstAction() {
         </p>
         <div className="firstCard-wrapper">
           <div>
-            {/* <img src="/img/click-btn.svg" alt="" /> */}
             <IoCloudUploadSharp className="ico-first" />
             <h3>100% em Nuvem</h3>
             <p>

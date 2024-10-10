@@ -9,18 +9,17 @@ export default function Prices() {
           momento!
         </h3>
         <h2 className="title-primary">
-          Ganhe tempo qualificando suas menssagens automaticamente
+          Ganhe tempo qualificando suas menssagens no automático
         </h2>
         <div className="price-cards-wr">
           <div>
             <span>
               <FaWrench className="price-ico" />
-              Construimos
             </span>
-            toda estrutura de servidor, e configuramos o fluxo, você não precisa
-            fazer nada.
+            Construimos toda estrutura de servidor, e configuramos o fluxo, você
+            não precisa fazer nada.
             <span>
-              <FaArrowRight className="price-ico size" />
+              <FaArrowRight className="price-ico" />
             </span>
           </div>
           <div>
