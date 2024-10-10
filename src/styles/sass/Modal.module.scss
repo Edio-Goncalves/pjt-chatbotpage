@@ -58,6 +58,10 @@
         padding: 10px;
         border-radius: 3px;
         color: aliceblue;
+        &:hover {
+          transition: all 0.3s ease-in;
+          background-color: #0099ff;
+        }
       }
     }
   }
